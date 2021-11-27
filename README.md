@@ -22,3 +22,7 @@ Using the -c flag, dmenu will appear centered on the current screen. The followi
 ### Set a border
 Using the -bw x flag, dmenu will appear with a border around of width x. The following patches are applied for this functionality:
 * [border](https://tools.suckless.org/dmenu/patches/border/) (v 20201112-1a13d04)
+
+### Lines below prompt
+Dmenu's entries will appear just under the prompt. The following patches are applied for this functionality:
+* [lines below prompt and fullwidth](https://tools.suckless.org/dmenu/patches/lines-below-prompt/) (v 20211014)
