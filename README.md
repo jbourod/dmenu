@@ -14,3 +14,7 @@ By default, dmenu will apply fuzzy matching on the input elements (can be disabl
     into:
 
         if (!fstrncmp(&(*highlight), &text[i], 1)) {
+
+### Center on the screen
+Using the -c flag, dmenu will appear centered on the current screen. The following patches are applied for this functionality:
+* [center](https://tools.suckless.org/dmenu/patches/center/) (v 20200111-8cd37e1)
